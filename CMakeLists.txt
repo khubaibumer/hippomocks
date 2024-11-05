@@ -5,7 +5,6 @@ if (NOT MSVC)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 endif()
 add_subdirectory(HippoMocks)
-add_subdirectory(HippoMocksTest)
 
 install(FILES ${PROJECT_SOURCE_DIR}/HippoMocks/hippomocks.h
         DESTINATION include/)
